@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Barriecito&family=Gravitas+One&display=swap');
+
+* {
+    margin: 0;
+    font-family: Atma;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to top, #fdf7ff, #d8b4f0);
+}
+
+#header {
+    text-align: center;
+    padding: 5px;
+}
+
+h1 {
+    color: #6f4a86;
+    margin-top: 15px;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+button {
+    background-color: #b57edc;
+    border: 2px solid #7d4aa3;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c997e8;
+    transform: scale(1.05);
+}
