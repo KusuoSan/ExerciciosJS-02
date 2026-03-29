@@ -1,3 +1,5 @@
+//Me dei a liberdade de incluir neste código algumas coisas que pesquisei e achei legais, mesmo que não tenha aprendido com meu professor <3 São apenas pequenos detalhes, como o "\n", adicionados por pura estética!!
+
 const container = document.getElementById("container");
 
 for (let i = 1; i <= 10; i++) {
